@@ -1,11 +1,12 @@
 import React from "react";
-//import MenuAdmin from "../../components/MenuAdmin";
-import HeadAdmin from "../../components/HeadAdmin";
+import BodyAdmin from "./BodyAdmin";
+import HeadAdmin from "./HeadAdmin";
 
 const Admin = ()=>{
     return(
         <div>
             <HeadAdmin/>
+            <BodyAdmin/>
             
         </div>
     )

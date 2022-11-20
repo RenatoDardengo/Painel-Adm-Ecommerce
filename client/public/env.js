@@ -84,6 +84,7 @@ window.env = {
   "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\",
   "PUBLIC": "C:\\Users\\Public",
   "PWD": "D:/Desafios/react-Ecommerce/client",
+  "REACT_APP_BASEURL": "http://localhost:3001",
   "SESSIONNAME": "Console",
   "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
   "SHLVL": "2",

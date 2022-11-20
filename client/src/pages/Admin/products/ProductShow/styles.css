@@ -1,0 +1,96 @@
+#nav {
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    display: flex;
+}
+#btn-img{
+    margin-top: 15px;
+}
+#nav img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+#btn-txt {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+#search {
+    display: flex;
+    flex-direction: column;
+}
+
+#search>a {
+
+    position: relative;
+    left: 150px;
+    top: -20px;
+}
+
+#nav-title {
+    margin-top: 3px;
+}
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: rgb(216, 37, 37);
+    width: 100%;
+
+
+}
+.Product-input {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left:14px ;
+    width: 150px;
+
+}
+#btn {
+    background-color: transparent;
+    border: transparent;
+    width: 5px;
+    position: relative;
+    left: 122px;
+    bottom: 47px;
+}
+tr:nth-child(even) {
+    background: rgb(239, 236, 236)
+}
+
+tr {
+    border-bottom: 1px solid darkgray;
+
+}
+
+td {
+    height: 30px;
+}
+
+td:first-child {
+    width: 10%;
+
+}
+select{
+    height: 30px;
+        border-radius: 5px;
+}
+
+
+
+
+.div-table {
+
+    border: 1px solid darkgray;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}

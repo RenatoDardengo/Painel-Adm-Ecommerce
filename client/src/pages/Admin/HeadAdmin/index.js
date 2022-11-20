@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../assets/img/logo.png"
-import exit from "../../assets/img/exit.png"
-import man from "../../assets/img/businessman.png";
+import logo from "../../../assets/img/logo.png"
+import exit from "../../../assets/img/exit.png"
+import man from "../../../assets/img/businessman.png";
 import "./styles.css"
 
 const HeadAdmin = () => {

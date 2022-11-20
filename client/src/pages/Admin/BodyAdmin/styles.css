@@ -1,0 +1,133 @@
+* {
+    font-family: Gotham;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100%;
+
+}
+
+.div-body {
+    height: auto;
+}
+
+.div-body h2 {
+    padding-left: 10px;
+}
+
+hr {
+    color: aliceblue;
+}
+
+.div-menu {
+    background-color: #2d3643;
+    padding-left: 5px;
+    height: 92vh;
+    padding-top: 20px;
+}
+
+
+.menu-options>ul>li>a {
+    color: azure;
+    font-family: Gotham;
+    font-size: 17px;
+}
+
+
+
+.menu-options {
+    padding: 20px 5px 0px 5px;
+}
+
+.options>li {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.menu-options>ul>li>a:hover {
+    font-size: 20px;
+}
+
+.options>li:hover {
+    cursor: pointer;
+}
+
+.nav {
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    display: flex;
+}
+
+.nav img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.nav-title {
+    margin-top: 3px;
+}
+
+@media (max-width: 930px) {
+    .main-container {
+        grid-template-columns: 1fr;
+        height: auto;
+
+    }
+
+    .options {
+        margin-top: -30px;
+    }
+
+    .options li a {
+        display: none;
+    }
+
+    .options>li>img:hover {
+        position: relative;
+        bottom: 10px;
+        width: 28px;
+    }
+
+    .options>li>a>img:hover {
+        position: relative;
+        bottom: 10px;
+        width: 28px;
+    }
+
+    .div-menu {
+        height: 60px;
+
+
+    }
+
+
+    .display-none {
+        display: none;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+    }
+
+    .menu-options>li>img {
+        margin-bottom: 20px;
+    }
+        .options>li {
+            border-bottom: none;
+            
+        }
+}
